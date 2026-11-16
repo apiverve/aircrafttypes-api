@@ -1,0 +1,16 @@
+name: apiverve_aircrafttypes
+description: "Aircraft Types returns the physical and operational characteristics of an aircraft type from its ICAO designator, such as B738 or A320, or by searching manufacturer and model. Each type comes with wingspan, length, tail height, maximum takeoff and landing weight, approach speed and category, airplane design group, ICAO wake turbulence category and FAA weight class, with metric conversions. Paid plans add airport planning geometry, RECAT wake categories and US registration and traffic counts."
+version: 1.2.6
+homepage: https://apiverve.com/marketplace/aircrafttypes?utm_source=dart&utm_medium=referral&utm_content=homepage
+repository: https://github.com/apiverve/aircrafttypes-api/tree/main/dart
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  http: ^1.1.0
+  http_parser: ^4.0.0
+
+dev_dependencies:
+  lints: ^3.0.0
+  test: ^1.24.0
